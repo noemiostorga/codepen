@@ -15,12 +15,17 @@ header{
   text-align: center;
 }
 
-
-
-nav a{
+nav li {
   list-style: none;
   text-decoration: none;
   display: inline;
+}
+
+nav a{
+
+  text-decoration: none;
+  padding: 15px;
+  font-size: 2em;
 }
 
 
@@ -32,6 +37,7 @@ nav a{
 #me{
   text-shadow: 2px 2px 10px blue;
   font-size: 40px;
+  opacity: .4;
  
 }
 
