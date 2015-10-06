@@ -5,6 +5,25 @@ body {
 
 }
 
+
+
+/***********************
+HEADER
+**********************/
+header{
+  background: rgba(48, 110, 255, .4);
+  text-align: center;
+}
+
+
+
+nav a{
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+}
+
+
 .background{
   background-attachment: fixed;
   text-align: center;
