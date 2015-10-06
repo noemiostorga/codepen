@@ -1,6 +1,11 @@
+
+body {
+  background: url("http://pxwallpaper.com/wp-content/uploads/2013/12/clouds-background-tumblr-7812.jpg") no-repeat;
+  background-size: 100%;
+
+}
+
 .background{
-  background: url("http://pxwallpaper.com/wp-content/uploads/2013/12/clouds-background-tumblr-7812.jpg");
-  background-size: cover;
   background-attachment: fixed;
   text-align: center;
 }
