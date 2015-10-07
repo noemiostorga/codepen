@@ -3,6 +3,7 @@ body {
   background: url("http://pxwallpaper.com/wp-content/uploads/2013/12/clouds-background-tumblr-7812.jpg") no-repeat;
   background-size: 100%;
   background-attachment: fixed;
+  margin:0;
 
 }
 
@@ -117,6 +118,11 @@ TREE
   font-size: 1.5em;
 }
 
+.item >p::first-letter {
+  color:orange;
+  font-size: 2em;
+}
+
 .item p:nth-child(2){
   color: blue;
 }
@@ -129,8 +135,10 @@ TREE
   content: "kid";
 }
 
+.item div > :last-child {
+  color: green;
+}
 
-body {margin:0;}
 
 
 
