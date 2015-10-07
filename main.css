@@ -2,6 +2,13 @@
 body {
   background: url("http://pxwallpaper.com/wp-content/uploads/2013/12/clouds-background-tumblr-7812.jpg") no-repeat;
   background-size: 100%;
+  background-attachment: fixed;
+
+}
+
+img{
+  height: 300px;
+  width: 25%;
 }
 
 
@@ -29,8 +36,8 @@ nav a{
 }
 
 
-.background{
-  background-attachment: fixed;
+.center{
+
   text-align: center;
 }
 
@@ -79,13 +86,12 @@ nav a{
   background-color: rgba(21, 105, 199, .4);
   color: white;
   display: block;
-  margin-left: 43%;
+  margin-left: 46%;
   text-decoration: none;
 
 }
 
 .death:hover {
-
   background-color: rgba(255, 255, 255, .4);
 
 }
@@ -95,14 +101,22 @@ nav a{
   color: white;
 }
 
+.death a:hover{
+  color: #6960EC;
+}
+
 /***********************
 TABLE
 **********************/
 #section{
   background: #fff;
   margin-top: 15px;
+  height: 100px;
 }
 
+
+
+body {margin:0;}
 
 
 
