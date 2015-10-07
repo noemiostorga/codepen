@@ -106,12 +106,10 @@ nav a{
 }
 
 /***********************
-TABLE
+TREE
 **********************/
-#section{
+#tree{
   background: #fff;
-  margin-top: 15px;
-  height: 100px;
 }
 
 
