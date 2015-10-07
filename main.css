@@ -112,6 +112,22 @@ TREE
   background: #fff;
 }
 
+.item > p{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.item p:nth-child(2){
+  color: blue;
+}
+
+.item div > :first-child{
+  color: red;
+}
+
+.item div > ::before{
+  content: "kid";
+}
 
 
 body {margin:0;}
